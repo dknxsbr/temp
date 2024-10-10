@@ -90,7 +90,7 @@ cd ${ino_dir}
 curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
 
 # add path 
-echo "export PATH='${ino_dir}:$PATH'" >> ~/.bashrc
+echo "export PATH='${ino_dir}/bin:$PATH'" >> ~/.bashrc
 
 
 
